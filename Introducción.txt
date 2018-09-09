@@ -1,0 +1,14 @@
+Anotaciones:
+
+Estructura general de un website personal:
+
+1.- Cabecera
+2.- Sección principal
+3.- Portafolio
+
+
+- El **BOM **(Browser Object Model) consiste en el navegador de objetos, el historial, la pantalla, la ubicación y el documento que son elementos secundarios de la ventana. En el nodo del documento está el DOM (Document Object Model), el modelo de objeto del documento, que representa el contenido de la página.
+
+Para consultar todas las etiquetas de html5 y obtener documentación:
+https://allthetags.com/
+http://html5doctor.com
