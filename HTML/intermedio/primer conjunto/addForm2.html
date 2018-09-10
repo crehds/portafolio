@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <!-- Aún no se que significan las dos líneas siguientes-->
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"> -->
+  <title>Document</title>
+  <link rel="icon" type="image/png" href="../../../Imagenes para trabajar/favicon.png">
+</head>
+
+<body>
+  <header>
+    <div>
+      <figure>
+        <img src="../../../Imagenes para trabajar/logo.png" alt="Logo de http:carlosrodríguez.com " />
+      </figure>
+      <nav>
+        <ol>
+          <li>
+            <a href="#">Portafolio</a>
+          </li>
+          <li>
+            <a href="#">Experiencia</a>
+          </li>
+          <li>
+            <a href="#">Trabajemos juntos</a>
+          </li>
+        </ol>
+      </nav>
+    </div>
+  </header>
+  <section>
+    <h1>
+    Hola! Soy <strong>Carlos Rodríguez</strong> desarrollador <br/> <strong>Javascript</strong> con <br> pasión por la <strong>creación de páginas web</strong>
+  </h1>
+    <img src="../../../Imagenes para trabajar/hero.jpg" width="500" height="300" alt="imagen principal del sitio">
+  </section>
+  <section>
+    <h2>Portafolio (Proyectos Destacados)</h2>
+    <article>
+      <h3>Platzi Videos</h3>
+      <h6>React Native/ React</h6>
+      <p><small><strong>Fecha:</strong> 09/09/2018 </small></p>
+      <p><small><strong>Puedes verlo en::</strong>www.platzi.com/native</small></p>
+      <p>Platzi Video fue el resultado de 3 meses de trabajo para crear la mejor app para enseñar el funcionamiento de React y React Native. Desde crear un vista-detalle, hasta patrones avanzados de navegación, este proyecto ha sido el ejemplo de futuros creadores de aplicaciones multiplataforma.
+      </p>
+      <img src="../../../Imagenes para trabajar/platzi-video-react-native.png" width="500" alt="proyecto del curso de react native">
+    </article>
+  </section>
+  <h2>Más sobre mi experiencia</h2>
+  <article>
+    <figure>
+      <img src="../../../Imagenes para trabajar/platzi-conf.jpg" width="500"/>
+    </figure>
+    <h3>Platzi Conf México 2018</h3>
+    <p>El evento más grande sobre gente que quiere aorender más de internet. En este evento te comparto como tener una vida de constante aprendizaje</p>
+    <a href="#">Ver Plática</a>
+  </article>
+  <section>
+    <!-- form: formulario -->
+    <!-- Esta parte añadirá suscripción a la url para manejarlo desde el backend -->
+    <form action="/suscripcion">
+      <!-- Al presionar ENTER intentará enviar el formulario a la url establecida en action -->
+
+      <!-- Conocimiento adicional -->
+      <!-- <label for="email">Dejame tu email</label> -->
+      <!-- Actuaría igual que el place holder, con la diferencia de mostar un texto fuera del recuadro -->
+      <!-- El atributo for recepciona un atributo, que de ser igual al id de un input de tipo formulario, pondrá el focus del cursor en ese input -->
+      <h3>¿Creamos algo juntos</h3>
+      <input type="datetime" placeholder="Déjame tu email" id="email">
+      <!-- "place holder" sirve para establecer un texto de guía hacia el usuario -->
+      <!-- se podria añadir value = "@gmail.com" para tener dentro del recuadro del formulario, un valor por defecto. -->
+      <!-- Al hacer esto ya no se mostraría el place holder, hasta no borrar el valor por defecto(ya sea el usurio o uno mismo) -->
+      <!-- El tipo datetime haró que el navegador intente completear la información con los datos anterioremente ingresados y que tenga guardados en la caché  -->
+
+      <!-- Forma equivalente abotón enviar -->
+      <!-- <input type="submit" value="texto del botón"> -->
+      <!-- "submit" para representar una entrada que enviará el formulario a la url "/suscripcion" -->
+
+      <button>Enviar</button> <!--Hace lo mismo -->
+    </form>
+  </section>
+  <section>sección contacto</section>
+  <footer>footer</footer>
+
+
+</body>
+
+</html>

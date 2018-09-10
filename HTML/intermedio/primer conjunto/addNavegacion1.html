@@ -1,69 +1,69 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
   <meta charset="UTF-8">
   <!-- Aún no se que significan las dos líneas siguientes-->
   <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge"> -->
   <title>Document</title>
+  <link rel="icon" type="image/png" href="../../../Imagenes para trabajar/favicon.png">
 </head>
-
 <body>
   <header>
     <div>
       <figure>
-        <img>logo
+        <img src="../../../Imagenes para trabajar/logo.png" alt="Logo de http:carlosrodríguez.com " />
       </figure>
       <nav>
         <ol>
           <li>
-            <a href="">Portafolio</a>
+            <a href="#portafolio">Portafolio</a>
+
           </li>
           <li>
-            <a href="">Experiencia</a>
+            <a href="#eventos">Experiencia</a>
           </li>
           <li>
-            <a href="">Trabajemos juntos</a>
+            <a href="#contacto">Trabajemos juntos</a>
           </li>
         </ol>
       </nav>
     </div>
   </header>
   <section>
-    <!-- Usando jerarquía de títulos h1(mayor), h6 (menor) -->
     <h1>
     Hola! Soy <strong>Carlos Rodríguez</strong> desarrollador <br/> <strong>Javascript</strong> con <br> pasión por la <strong>creación de páginas web</strong>
-    </h1>
-    <!-- Aún no se usara los atributos src y alt -->
-    <img src="" alt="">Imagen de portada
+  </h1>
+    <img src="../Imagenes para trabajar/hero.jpg" width="500" height="300" alt="imagen principal del sitio">
   </section>
-  <section>
+  <section id="portafolio">
     <h2>Portafolio (Proyectos Destacados)</h2>
-    <!-- La etiqueta article representa una pieza de contenido independiente, ya sea un artículo de revista, una publicación de blog, un comentario de un lector. -->
     <article>
       <h3>Platzi Videos</h3>
       <h6>React Native/ React</h6>
-      <!-- Usando small para estrcturar aún mas la información -->
-      <!-- hace aún más pequeña la información -->
       <p><small><strong>Fecha:</strong> 09/09/2018 </small></p>
       <p><small><strong>Puedes verlo en::</strong>www.platzi.com/native</small></p>
       <p>Platzi Video fue el resultado de 3 meses de trabajo para crear la mejor app para enseñar el funcionamiento de React y React Native. Desde crear un vista-detalle, hasta patrones avanzados de navegación, este proyecto ha sido el ejemplo de futuros creadores de aplicaciones multiplataforma.
       </p>
+      <img src="../Imagenes para trabajar/platzi-video-react-native.png" width="500" alt="proyecto del curso de react native">
     </article>
   </section>
   <h2>Más sobre mi experiencia</h2>
-  <article>
-    <!-- etiqueta <figure> indica algún conjunto de contenido independiente que se hace referencia desde el contenido principal, como ilustraciones, ejemplos de códigos, diagramas y poemas. -->
+  <article id="eventos">
     <figure>
-      <img/>
+      <img src="../Imagenes para trabajar/platzi-conf.jpg" width="500"/>
     </figure>
     <h3>Platzi Conf México 2018</h3>
     <p>El evento más grande sobre gente que quiere aorender más de internet. En este evento te comparto como tener una vida de constante aprendizaje</p>
-    <!--"#" Me redicrecciona a la misma página, pero desde el inicio -->
     <a href="#">Ver Plática</a>
   </article>
-  <section></section>
+  <section id="contacto">
+    <form action="/suscripcion">
+      <h3>¿Creamos algo juntos</h3>
+      <input type="datetime" placeholder="Déjame tu email" id="email">
+      <button>Enviar</button>
+    </form>
+  </section>
   <section>sección contacto</section>
   <footer>footer</footer>
 
