@@ -4,3 +4,24 @@ Estilo Inline.
 Estilo externo o interno (dependen de la posición en la que se declaren en el html, recordar que van en “cascada”).
 Estilo por defecto del navegador.
 Se puede utilizar !important para romper cascadas y priorizar (aunque no es recomendable).
+
+
+* Esta parte se debe comparar con la imagen resumen de css*
+1. Selector de etiqueta: refiere a etiquetas HTML, como el ejemplo de la imagen.
+2. Selector descendiente: refiere a etiquetas HTML de forma hereditaria.
+3. Selector de id: refiere a atributos id de etiquetas HTML.
+4. Selector de class (clase): refiere a atributos class de etiquetas HTML
+
+
+Cuando desarrollamos una página web, notamos que ésta se ve diferente según el navegador que utilicemos, una alternativa es Normalize.css.
+Pero ¿Qué es Normalize.css?
+Normalize.css es un pequeño archivo CSS que proporciona una mejor coherencia entre navegadores en el diseño predeterminado de los elementos HTML.
+
+
+Sobre clases en CS, buenas prácticas de definición de nombres de clases:
+
+- Los nombres definidos deben guardar relacion semántica con la parte definida, para así mantener un buen orden y facil manipulación de los mismos.
+
+-"project-imageContainer"
+El uso de "-" es llamado: separación por dash.
+El uso de mayúsculas es llamado camelcase.

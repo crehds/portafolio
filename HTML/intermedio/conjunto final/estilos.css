@@ -1,0 +1,15 @@
+/* Solo para conocer conceptos */
+/* selector de etiqueta header - section - article - nav*/
+header {
+  background: pink;
+  color:red
+}
+
+/* selector descendete(ejemplo para llegar a uno los los link "a") */
+/* body header div nav ol li a (en base al html)*/
+
+/* (selectr de clase;) */
+/* .link */
+
+/* selector de id */
+/* #portafolio */
