@@ -1,0 +1,11 @@
+/* Practicando */
+/* body {
+  background: red;
+} */
+/* no se recomienda usar el !important, pues alteara la estructura de cascada */
+/* header {
+  background: pink !important;
+} */
+header {
+  background: pink;
+}

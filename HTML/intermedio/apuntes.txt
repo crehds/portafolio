@@ -1,0 +1,6 @@
+Orden de los estilos en cascada por prioridad:
+
+Estilo Inline.
+Estilo externo o interno (dependen de la posición en la que se declaren en el html, recordar que van en “cascada”).
+Estilo por defecto del navegador.
+Se puede utilizar !important para romper cascadas y priorizar (aunque no es recomendable).
