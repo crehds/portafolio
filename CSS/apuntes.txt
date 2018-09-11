@@ -1,0 +1,8 @@
+Anotaciones:
+
+- Mucha documentacion con respecto a los colores en css
+https://developer.mozilla.org/en-US/docs/Web/CSS/color_value
+
+- Los estilos muchas veces se heredan en css. Por ejemplo, "body" tiene como hijos a una etiqueta "p", "figure", "article",etc. Todas las etiquetas hijas podrían obtener el estilo que se le aplique a "body", si no tuvieran un estilo establecida.
+
+- Para obtener fuentes que no vienen instaladas en nuestro sistema operativo
