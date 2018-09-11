@@ -20,7 +20,7 @@ Normalize.css es un pequeño archivo CSS que proporciona una mejor coherencia en
 
 Sobre clases en CS, buenas prácticas de definición de nombres de clases:
 
-- Los nombres definidos deben guardar relacion semántica con la parte definida, para así mantener un buen orden y facil manipulación de los mismos.
+- Los nombres definidos deben guardar relación semántica con la parte definida, para así mantener un buen orden y fácil manipulación de los mismos.
 
 -"project-imageContainer"
 El uso de "-" es llamado: separación por dash.
