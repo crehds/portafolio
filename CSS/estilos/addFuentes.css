@@ -1,0 +1,25 @@
+
+body {
+  /* Funcionamiento */
+  /* Buscará primero por la fuente Arial y de no encontrarla, pasará ala siguiente y asi sucecivamente */
+  /* font-family:Arial,Helvetica,sans-serif; */
+
+  /* Se usa esta fuente debido al uso de google fonts */
+  font-family: 'Source Sans Pro',sans-serif;
+}
+
+
+/* la "," es para diferenciar de un selector de ruta donde se diría que: h6 está dentro de un h5, este dentro de un h4, asi sucesivamente */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+ {
+   /* Open Sans es una fuente muy conocida en el mundo de la programación
+  font-family: 'Open Sans', Times,serif; */
+
+  font-family: 'Fjalla One', sans-serif;
+
+}

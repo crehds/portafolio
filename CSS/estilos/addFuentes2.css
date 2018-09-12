@@ -1,0 +1,37 @@
+
+body {
+  font-family: 'Source Sans Pro',sans-serif;
+}
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Fjalla One', sans-serif;
+  /* Ancho de la fuente, como sería la negrita */
+  /* "normal" sería lo tradicional y "bold" negrita */
+  font-weight: 400 ;
+  /* A modo de ejemplo */
+  /* Estilo de la fuente*/
+  /* italic sería cursiva */
+  /* font-style: italic; */
+}
+
+/* Al estar declarado déspues del anterior estilo, éste reemplazará al anterior con respecto a h1 */
+h1 {
+  /* Tamaño de la fuente */
+  font-size: 40px;
+  /* alto de linea (como los renglones de un cuaderno)*/
+  line-height: 1.5;
+  /* Espacio entre letras */
+  letter-spacing: -.2px;
+  /* Sólo a modo de ejemplo */s
+  /* Manipulando las mayúsculas */
+  /* text-transform: capitalize; */
+  /* Tipo de decorado */
+  /* text-decoration: dashed; */
+}
