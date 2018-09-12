@@ -1,0 +1,72 @@
+
+body {
+  font-family: 'Source Sans Pro',sans-serif;
+}
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Fjalla One', sans-serif;
+  font-weight: 400 ;
+}
+
+
+h1 {
+  font-size: 40px;
+  line-height: 1.5;
+  letter-spacing: -.2px;
+  color: white;
+}
+
+h1 strong {
+  color: #026fff;
+}
+
+.hero {
+  height: 300px;
+  /* Estableciendo de fondo a una imagen */
+  background-image: url('../../Imagenes para trabajar/hero.jpg');
+  /* Combinando la imagen de fondo con un color */
+  background-color: #1b2127;
+
+  /* Manipulando el tamaño de la imagen de fondo
+  parámetros: ancho y alto */
+  background-size: 500px 300px;
+  /* Déspues de esto se visualiza que se repite la imagen, debido a que existe mucho mas espacio para la imagen */
+
+  /* Para eliminar la repetición no deseada de mi imagen de fondo */
+  background-repeat: no-repeat;
+
+  /* Tener en cuenta que la posición que se define, tiene como razón lo decidido como valor de posición para el proyecto */
+  /* Para mover la imagen. La "x" significa que moveremos de izquierda a derecha o vicerversa solamente */
+  background-position-x: right;
+}
+
+.project-details {
+  width: 500px;
+}
+
+.project-imageContainer {
+  width: 500px;
+}
+
+.header {
+  /* color de fondo */
+  background-color: #1b2127;
+  /* Con esto se verifica que los numeros, que representan la lista enumerada, cambian de color.
+  Las palabras no debdo a que tienen un valor predeterminado */
+  color: white;
+}
+
+/* Resolviendo la falta de asignación de color que quedó pendiente en ".header con respecto a las palabras"
+Estilo para las anclas(palabras) que estén dentro de la clase header */
+.header a {
+ color: white;
+ /* Quitándo el subrayado por defecto de las anclas */
+ text-decoration: none;
+}

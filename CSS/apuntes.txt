@@ -12,3 +12,9 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/color_value
 - Con cada cambio realizado es muy recomendable usar el inspector de elementos, con el fin de verificar más a fondo los cambios realizados.
 
 - Es mala práctica manipular mayúsculas dentro del html, mejor hacerlo desde el css.
+
+- Algunos colores para aprender:
+gris oscuro = #1d252c:
+gris claro = #626262;
+background gris = #1b2127;
+celeste =  #026fff;
