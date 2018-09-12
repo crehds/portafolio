@@ -1,0 +1,20 @@
+Anotaciones:
+
+- Mucha documentacion con respecto a los colores en css
+https://developer.mozilla.org/en-US/docs/Web/CSS/color_value
+
+- Los estilos muchas veces se heredan en css. Por ejemplo, "body" tiene como hijos a una etiqueta "p", "figure", "article",etc. Todas las etiquetas hijas podrían obtener el estilo que se le aplique a "body", si no tuvieran un estilo establecida.
+
+- Para obtener fuentes que no vienen instaladas en nuestro sistema operativo
+
+- En css 1 o 100% son lo mismo, al igual con el 0. Esto para establecer tamaños(letra espacios,etc).
+
+- Con cada cambio realizado es muy recomendable usar el inspector de elementos, con el fin de verificar más a fondo los cambios realizados.
+
+- Es mala práctica manipular mayúsculas dentro del html, mejor hacerlo desde el css.
+
+- Algunos colores para aprender:
+gris oscuro = #1d252c:
+gris claro = #626262;
+background gris = #1b2127;
+celeste =  #026fff;
