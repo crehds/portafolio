@@ -1,0 +1,71 @@
+
+body {
+  font-family: 'Source Sans Pro',sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Fjalla One', sans-serif;
+  font-weight: 400 ;
+}
+
+
+h1 {
+  font-size: 40px;
+  line-height: 1.5;
+  letter-spacing: -.2px;
+  color: white;
+  margin: 100px 150px 70px 30px
+}
+
+.project {
+
+  /* RECORDAR QUE LA CLASE FUE MAS TEORICA.REVISAR IMAGENES Y APUNTES */
+  border: 1px solid gray;
+  border-radius: 10px;
+  /* Estableciendo un margen para que no se peguen las secciones */
+  margin-bottom: 15px;
+  /* No se requieren por ahora */
+  /* margin-top: 15px;
+  margin-left: 15px;
+  margin-right: 15px; */
+
+  /* Parámetros: (arriba y abajo), (izquierda y derecha) */
+  /* margin: 0px auto; */
+}
+
+
+h1 strong {
+  color: #026fff;
+}
+
+.hero {
+  height: 300px;
+  background-image: url('../../Imagenes para trabajar/hero.jpg');
+  background-color: #1b2127;
+  background-size: 500px 300px;
+  background-repeat: no-repeat;
+  background-position-x: right;
+}
+
+.project-details {
+  width: 500px;
+}
+
+.project-imageContainer {
+  width: 500px;
+}
+
+.header {
+  background-color: #1b2127;
+  color: white;
+}
+
+.header a {
+ color: white;
+ text-decoration: none;
+}
